@@ -730,7 +730,7 @@ ul.menu-nav li:hover {
   height: 1px;
   background-color: rgba(255, 255, 255, 0.2);
   bottom: 20px;
-  left: 100px;
+  left: 125px;
 }
 .book-head h2 {
   font-size: 36px;
@@ -738,7 +738,169 @@ ul.menu-nav li:hover {
   color: var(--gold);
   padding-bottom: 50px;
 }
+
+.book-form {
+  width: 100%;
+}
+.btop-name,
+.btop-email,
+.btop-number,
+.btop-date,
+.btop-time,
+.btop-people {
+  width: 32%;
+  padding-bottom: 15px;
+}
+.book-farm input,
+.book-farm textarea {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #625b4b;
+  font-size: 14px;
+  background-color: #0c0b09;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  outline: none;
+  resize: vertical;
+  overflow: auto;
+}
+.book-mid textarea {
+  padding: 10px 0 80px 10px;
+}
+.book-btn button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--gold);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  opacity: 0.85;
+  transition: all 0.3s ease-in;
+}
+.book-btn button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.book-top input[type="text"]:focus {
+  border: 1px solid var(--gold);
+}
+.book-top input[type="email"]:focus {
+  border: 1px solid var(--gold);
+}
+.book-mid input[type="text"]:focus {
+  border: 1px solid var(--gold);
+}
+.book-mid textarea:focus {
+  border: 1px solid var(--gold);
+}
 /* Book section ends */
+
+/*Testimonials section Starts */
+.testimonial {
+  background-color: #0c0b09;
+  padding: 50px 0 80px 0;
+  border-bottom: 1px solid #cda45e;
+}
+
+.testimonial-head h4 {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.testimonial-head h4::after {
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 20px;
+  left: 125px;
+}
+.testimonial-head h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gold);
+  padding-bottom: 50px;
+}
+.testimonial-cont {
+  padding-bottom: 150px;
+}
+.testimonial-cards {
+  padding: 20px 20px 60px 20px;
+  color: #fff;
+  background-color: #3e3627;
+  position: relative;
+  width: 31%;
+  height: auto;
+  border-radius: 10px;
+}
+.testimonial-cards p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.testimonial-card-details {
+  position: absolute;
+  bottom: -108px;
+  left: 45px;
+}
+
+.testimonial-card-image {
+  width: 90px;
+  margin-bottom: 12px;
+}
+.testimonial-card-image img {
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+}
+.testimonial-card-details h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.testimonial-card-details h4 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 0;
+}
+.myQuote {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 26px;
+  padding: 0 10px;
+}
+.testimonial-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.testi-btn {
+  padding: 6px;
+  width: 7px;
+  height: 7px;
+  background-color: #b2b2b2;
+  border-radius: 50%;
+}
+.testimonial-btn .active {
+  background-color: var(--gold);
+}
+.testi-btn:hover {
+  background-color: var(--gold);
+  cursor: pointer;
+}
+/* Testimonials section ends */
 
 /* Gallery Section Starts */
 .gallery {
