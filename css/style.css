@@ -180,6 +180,52 @@ a.nav-btn {
   letter-spacing: 1.5px;
   border-radius: 30px;
 }
+
+.drop-down,
+.deep-down {
+  position: relative;
+}
+.top-down {
+  background-color: #fff;
+  position: absolute;
+  width: 190px;
+  box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+  border-radius: 5px;
+  top: 26px;
+  left: 10px;
+  transform: translateY(50px);
+  transition: all 0.3s ease-in;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+.top-down li a {
+  color: #444 !important;
+  padding: 12px 14px !important;
+}
+.sub-down li a {
+  color: #444 !important;
+  padding: 12px 14px !important;
+}
+.top-down-icon i {
+  transform: rotate(270deg);
+  transition: 0.3s;
+}
+.sub-down {
+  position: absolute;
+  width: 190px;
+  box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+  border-radius: 5px;
+  background-color: #fff;
+  top: 0px;
+  left: 189px;
+  transform: translateX(-50px);
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
 .nav-bar-cont ul li a:hover {
   color: var(--gold);
   transition: all 0.2s ease-in;
@@ -188,6 +234,22 @@ a.nav-btn:hover {
   background-color: var(--gold);
   color: var(--white);
   transition: all 0.2s ease-in;
+}
+.top-down li a:hover {
+  color: var(--gold) !important;
+}
+
+a.top-down-icon:hover i {
+  transform: rotate(0deg);
+}
+
+.drop-down:hover .top-down,
+.deep-down:hover .sub-down {
+  transform: translateX(0px);
+  /* transition: all 0.3s ease-in; */
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
 }
 
 /* Nav Bar ends */
