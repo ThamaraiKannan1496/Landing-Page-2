@@ -36,21 +36,6 @@ ul {
   font-family: "Playfair Display", serif !important;
 }
 
-/* ::-webkit-scrollbar {
-  width: 16px;
-  cursor: pointer;
-  background-color: var(--gold);
-}
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(8, 8, 8);
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #bbbbbb;
-  height: 70px;
-  border-radius: 12px;
-} */
-
 .wid-container {
   width: 1320px;
   margin: 0 auto;
@@ -108,7 +93,7 @@ ul {
 
 /* Header Starts */
 .header-top {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("../image/hero-bg.jpg");
   width: 100%;
   height: 100vh;
@@ -151,7 +136,7 @@ a.head-lang::before {
 
 /* Nav Bar starts*/
 .navbar {
-  background-color: rgba(12, 11, 9, 0.6);
+  background-color: rgba(12, 11, 9, 0.65);
 }
 .nav-bar-cont {
   padding: 16px 0;
@@ -167,6 +152,7 @@ a.head-lang::before {
 }
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .nav-bar-cont ul li a {
   display: inline-block;
@@ -227,7 +213,7 @@ a.nav-btn:hover {
 }
 a.bann-btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 25px;
   background-color: transparent;
   color: var(--white);
   font-size: 13px;
@@ -262,7 +248,7 @@ a.bann-btn:hover {
 
 /* About section starts*/
 .about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)),
     url("../image/about-bg.jpg");
   width: 100%;
   height: 90vh;
@@ -325,7 +311,6 @@ a.bann-btn:hover {
   left: 20px;
   border-top: 6px solid #cda45e;
   border-left: 6px solid #cda45e;
-  /* background-color: var(--gold); */
   color: #eee;
 }
 .about-img::after {
@@ -337,7 +322,6 @@ a.bann-btn:hover {
   right: 20px;
   border-right: 6px solid #cda45e;
   border-bottom: 6px solid #cda45e;
-  /* background-color: var(--gold); */
   color: #eee;
 }
 .about-img:hover {
@@ -348,9 +332,8 @@ a.bann-btn:hover {
 
 /* whychoose section starts */
 .whychoose-section {
-  background-color: var(--lite-bg);
+  background-color: #0c0b09;
   padding: 50px 0;
-  border-bottom: 1px solid #cda45e;
 }
 .why-head h4 {
   color: #aaa;
@@ -377,7 +360,7 @@ a.bann-btn:hover {
 }
 .why-card {
   width: 32%;
-  background-color: var(--dark-bg);
+  background-color: #1a1814;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   padding: 40px 30px;
   transition: all 1s ease-in-out;
@@ -414,9 +397,8 @@ h2.why-sub {
 
 /* Menu section Starts*/
 .menu {
-  background-color: var(--dark-bg);
+  background-color: #1a1814;
   padding: 50px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .menu-head h4 {
@@ -511,7 +493,6 @@ ul.menu-nav li:hover {
 .specials {
   background-color: #0c0b09;
   padding: 50px 0 45px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .specials-head h4 {
@@ -604,7 +585,7 @@ ul.menu-nav li:hover {
 
 /* Events Section starts */
 .events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
     url("../image/events-bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -613,7 +594,6 @@ ul.menu-nav li:hover {
   width: 100%;
   height: auto;
   padding: 50px 0 35px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .events-head h4 {
@@ -711,7 +691,6 @@ ul.menu-nav li:hover {
 .book {
   background-color: #0c0b09;
   padding: 50px 0 100px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .book-head h4 {
@@ -804,7 +783,6 @@ ul.menu-nav li:hover {
 .testimonial {
   background-color: #0c0b09;
   padding: 50px 0 80px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .testimonial-head h4 {
@@ -837,7 +815,7 @@ ul.menu-nav li:hover {
 .testimonial-cards {
   padding: 20px 20px 60px 20px;
   color: #fff;
-  background-color: #3e3627;
+  background-color: #26231d;
   position: relative;
   width: 31%;
   height: auto;
@@ -906,7 +884,6 @@ ul.menu-nav li:hover {
 .gallery {
   background-color: #0c0b09;
   padding: 50px 0 100px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .gallery-head h4 {
@@ -958,7 +935,6 @@ ul.menu-nav li:hover {
 .chefs {
   background-color: #0c0b09;
   padding: 50px 0 80px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .chefs-head h4 {
@@ -1055,7 +1031,6 @@ ul.menu-nav li:hover {
 .contact {
   background-color: #0c0b09;
   padding: 50px 0 25px 0;
-  border-bottom: 1px solid #cda45e;
 }
 
 .contact-head h4 {
@@ -1191,9 +1166,10 @@ input[type="text"].inp-sub {
 
 /* -------------Footer link section starts----------- */
 .footer-link-section {
-  background-color: var(--lite-bg);
+  background-color: #0c0b09;
   width: 100%;
-  border-bottom: 1px solid #cda45e;
+  border-top: 1px solid #37332a;
+  border-bottom: 1px solid #28251f;
 }
 .footer-sec-cont {
   padding: 40px 0;
@@ -1314,7 +1290,7 @@ input[type="text"].inp-sub {
 }
 .media span {
   display: inline-block;
-  background-color: var(--dark-bg);
+  background-color: #28251f;
   border-radius: 50%;
   width: 40px;
   height: 40px;
