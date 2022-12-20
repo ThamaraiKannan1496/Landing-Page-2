@@ -1,0 +1,127 @@
+@media (min-width: 992px) {
+  .d-block {
+    display: block !important;
+    /* width: 50%; */
+  }
+}
+/* tablet */
+@media (min-width: 576px) and (max-width: 992px) {
+  .wid-container {
+    width: 100%;
+  }
+  /* Header */
+  .nav-bar-cont {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .head-top-cont {
+    width: 85%;
+    margin: 0 auto;
+  }
+  /* Banner */
+  .banner-cont {
+    padding-top: 150px;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-right {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  /* about */
+  .about-cont {
+    flex-direction: column-reverse;
+  }
+  .about-left {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .about-right {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    padding-bottom: 20px;
+  }
+  /* why choose */
+  .why-head {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .why-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  /* menu */
+  .menu-head,
+  .menu-list-left,
+  .menu-list-right,
+  .specials-head,
+  .spl-left,
+  .spl-right,
+  .spl-mid,
+  .events-head,
+  .event-left,
+  .event-right,
+  .book-head,
+  .testimonial-head,
+  .testimonial-cards,
+  .book-form,
+  .gallery-head,
+  .chefs-head,
+  .chef-container,
+  .contact-head,
+  .contact-left,
+  .footer-sec-cont {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .spl-left::after,
+  .test-card-none {
+    display: none;
+  }
+  .spl-right {
+    order: 2;
+  }
+  .spl-mid {
+    order: 3;
+  }
+
+  .btop-name,
+  .btop-email,
+  .btop-number,
+  .btop-date,
+  .btop-time,
+  .btop-people {
+    width: 49%;
+  }
+  .gallery-image {
+    width: 33.33%;
+  }
+  .chef-card {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+  .contact-right-form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .address-link,
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .services-link,
+  .subscribe-link {
+    margin-top: 30px;
+  }
+}
+
+/* 637001 */

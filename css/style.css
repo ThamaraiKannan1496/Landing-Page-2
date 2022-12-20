@@ -153,6 +153,7 @@ a.head-lang::before {
 .nav-list {
   display: flex;
   flex-wrap: wrap;
+  display: none !important;
 }
 .nav-bar-cont ul li a {
   display: inline-block;
@@ -168,6 +169,7 @@ a.head-lang::before {
 }
 a.nav-btn {
   display: inline-block;
+  display: none;
   padding: 10px 20px;
   background-color: transparent;
   color: var(--white);
