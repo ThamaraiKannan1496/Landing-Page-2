@@ -55,6 +55,7 @@
     width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
+    min-height: 300px;
   }
   /* menu */
   .menu-head,
@@ -80,6 +81,7 @@
     width: 80%;
     margin: 0 auto;
   }
+
   .spl-left::after,
   .test-card-none {
     display: none;
@@ -124,4 +126,129 @@
   }
 }
 
-/* 637001 */
+@media all and (max-width: 576px) {
+  .wid-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-icon {
+    /* text-align: center; */
+    width: 95%;
+    margin: 0 auto;
+  }
+  .icon-left {
+    margin-left: 10px;
+  }
+  .icon-left span {
+    padding-right: 10px !important;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-left h2 {
+    font-size: 28px;
+  }
+  .banner-left h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .banner-btn {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .banner-right {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .about-left {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .about {
+    min-height: 100vh;
+  }
+  .about-right {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+  }
+  .why-card,
+  .menu-head,
+  .menu-list-left,
+  .menu-list-right,
+  .specials-head,
+  .spl-left,
+  .spl-right,
+  .spl-mid,
+  .events-head,
+  .event-left,
+  .event-right,
+  .book-head,
+  .testimonial-head,
+  .testimonial-cards,
+  .book-form,
+  .gallery-head,
+  .chefs-head,
+  .chef-container,
+  .contact-head,
+  .contact-left,
+  .footer-sec-cont {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .why-card {
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+  .spl-left::after,
+  .test-card-none {
+    display: none;
+  }
+
+  .spl-right {
+    order: 2;
+  }
+  .spl-mid {
+    order: 3;
+  }
+
+  .btop-name,
+  .btop-email,
+  .btop-number,
+  .btop-date,
+  .btop-time,
+  .btop-people {
+    width: 100%;
+  }
+  .gallery-image {
+    width: 100%;
+  }
+  .chef-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-right-form {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .ftop-name,
+  .ftop-email {
+    width: 100%;
+  }
+  .address-link,
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    margin-top: 30px;
+  }
+}
