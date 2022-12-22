@@ -903,7 +903,7 @@ ul.menu-nav li:hover {
 .testimonial-card-details {
   position: absolute;
   bottom: -108px;
-  left: 45px;
+  left: 30px;
 }
 
 .testimonial-card-image {
@@ -1403,8 +1403,12 @@ input[type="text"].inp-sub {
   font-weight: 400;
 }
 .copy-link a {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--gold);
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  word-spacing: 5px;
 }
-
 /* Footer ends */
