@@ -145,7 +145,7 @@ a.head-lang::before {
   background-color: rgba(12, 11, 9, 0.65);
 }
 .nav-bar-cont {
-  padding: 16px 0;
+  padding: 14px 0;
 }
 .nav-bar-cont h1 a {
   display: inline-block;
