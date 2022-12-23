@@ -44,6 +44,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
 }
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
 
 .justify-start {
   justify-content: flex-start !important;
@@ -536,17 +539,39 @@ ul.menu-nav li:hover {
   border-radius: 50%;
   object-fit: cover;
 }
+.menu-cont {
+  width: 85%;
+  overflow: hidden;
+}
 .menu-head a {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   transition: 0.3s;
+  /* position: relative; */
+  /* padding-right: 15px; */
+  /* background-color: #1a1814; */
+  /* z-index: 3; */
 }
+/* .menu-head a::after {
+  position: absolute;
+  content: ".....................................................................................................................................................";
+  left: 126px;
+  bottom: 23px;
+  background-color: #1a1814;
+  color: #bab3a6;
+  z-index: 1;
+  width: 100%;
+  height: 1px;
+} */
 .menu-head span {
   color: var(--gold);
+  padding: 0 10px;
   font-size: 16px;
   font-weight: 600;
   transition: 0.3s;
+  background-color: #1a1814;
+  /* z-index: 3; */
 }
 .menu-rawmat p {
   padding-top: 8px;

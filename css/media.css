@@ -1,4 +1,26 @@
-@media (min-width: 992px) {
+/* XXL--->Style.css */
+@media (min-width: 1400px) {
+  .d-block {
+    display: block !important;
+  }
+}
+/* XL */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+  .name {
+    width: 31%;
+  }
+  .text-area {
+    width: 97%;
+  }
+}
+/* Large */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
   .d-block {
     display: block !important;
   }
@@ -7,7 +29,7 @@
   }
 }
 /* tablet */
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .wid-container {
     width: 100%;
   }
@@ -129,6 +151,9 @@
   .subscribe-link {
     margin-top: 30px;
   }
+}
+/* Small tabs */
+@media (min-width: 577px) and (max-width: 768px) {
 }
 /* mobile */
 @media all and (max-width: 576px) {
