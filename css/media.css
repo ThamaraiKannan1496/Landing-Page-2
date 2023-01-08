@@ -37,10 +37,6 @@
   .testimonial-cards {
     width: 100%;
   }
-  .contact-left-icon {
-    /* margin-top: 0px; */
-    /* align-items: flex-start; */
-  }
 }
 /* tablet */
 @media (min-width: 769px) and (max-width: 992px) {
@@ -126,7 +122,13 @@
     width: 80%;
     margin: 0 auto;
   }
-
+  .menu-cont > .menu-head {
+    margin: 0;
+    width: 100%;
+  }
+  .spl-right img {
+    margin-bottom: 20px;
+  }
   .spl-left::after,
   .test-card-none {
     display: none;
